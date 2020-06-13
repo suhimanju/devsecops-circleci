@@ -1,8 +1,6 @@
 version: 2.1
-
   orbs:
     snyk: snyk/snyk@x.y.z
-
   jobs:
     build:
       docker:
