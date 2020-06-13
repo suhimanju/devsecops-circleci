@@ -9,6 +9,5 @@ jobs:
       - checkout
       - run: npm install -q
       - snyk/scan: 
-        severity-threshold: high
-        token-variable: SNYK_TOKEN
-    
+          severity-threshold: high
+          token-variable: SNYK_TOKEN
