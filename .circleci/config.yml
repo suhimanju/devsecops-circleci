@@ -3,6 +3,8 @@ orbs:
   snyk: snyk/snyk@0.0.10
 jobs:
   build:
+    environment:
+      SNYK_TOKEN: 12345678
     docker:
       - image: 'circleci/node:4.8.2'
     steps:
